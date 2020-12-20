@@ -1,5 +1,5 @@
 
-@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -262,7 +262,27 @@ hr.major {
 	top: 0;
 	width: 100%;
 	z-index: 10000;
+
 }
+
+
+
+/*.header-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section > div {
+    width: calc(100% / 3);
+}
+
+@media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+        text-align: center;
+    }
+}*/
+
 
 #hero {
 	display: block;
@@ -298,11 +318,16 @@ hr.major {
 
 @media screen and (max-width: 480px) {
 
+	#header {
+		line-height: 2.75em;
+	}
+
 	#header img {
-		padding: 0;
+		/*padding: 0;*/
 		display: block;
 		max-height: 100%;
 		max-width: 100%;
+		width: calc(100% / 2);
 	}
 
 	#header .logo span {
@@ -311,6 +336,18 @@ hr.major {
 
 	img {
 		margin: 0.8em .8em .8em .8em;
+	}
+
+	#hero {
+		display: block;
+		margin-left: auto;
+		padding: .2em 1.3em .2em .2em;
+	}
+
+	#gsr_motors {
+		display: block;
+		margin-right: auto;
+		padding: .2em .2em .2em .2em;
 	}
 }
 
