@@ -30,11 +30,6 @@
       </g>
   <defs>
     
-    <linearGradient gradientUnits="userSpaceOnUse" y2="349.125" x2="0.725098" y1="0.875" x1="0.725098" id="paint0_linear">
-      <stop stop-color="#FFDFB8"></stop>
-      <stop stop-color="#FFCA8A" offset="1"></stop>
-    </linearGradient>
-    
     <linearGradient id="GoldenGradient">
       <stop offset="0" stop-color="#8f5e25"></stop>
       <stop offset="0.5" stop-color="#fbf4a1"></stop>
